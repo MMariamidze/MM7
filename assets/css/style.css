@@ -157,10 +157,10 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 46px 88px;
-    gap: 30px;
-    width: 363px;
-    height: 421px;
+    padding: 40px 70px;
+    gap: 20px;
+    width: 380px;
+    height: 430px;
     background: rgba(236, 235, 255, 0.3);
     border-radius: 2px;
     flex: none;
@@ -175,7 +175,6 @@ p{
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
-    text-align: center;
     color: #717082;
     flex: none;
     order: 1;
@@ -190,7 +189,6 @@ p{
     font-weight: 700;
     font-size: 40px;
     line-height: 56px;
-    text-align: center;
     letter-spacing: -2px;
     color: #2F2E41;
     flex: none;
@@ -213,20 +211,17 @@ p{
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    text-align: center;
     color: #6C63FF;
-    flex: none;
     order: 0;
-    flex-grow: 0;
 }
 .card-custom-1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 70px 80px;
+    padding: 70px 70px;
     gap: 40px;
-    width: 363px;
+    width: 380px;
     height: 502px;
     background: #6C63FF;
     border-radius: 2px;
@@ -275,11 +270,8 @@ p{
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
-    text-align: center;
     color: #6C63FF;
-    flex: none;
     order: 0;
-    flex-grow: 0;
 }
 sub{
     font-size: 10px;
@@ -330,19 +322,86 @@ sub{
     align-self: stretch;
     flex-grow: 0;
 }
+h3{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.button_letstalk{
+    vertical-align: middle;
+    padding: 16px 30px;
+    gap: 10px;
+    width: 186px;
+    height: 54px;
+    background: #6C63FF;
+    border: 1px solid #6C63FF;
+    border-radius: 2px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.section-3{
+    margin-top: 90px; 
+}
+.section-img{
+    background-image: url("../img/Rectangle\ 12.png");
+    background-repeat: no-repeat;
+    background-position-x:center;
+    border-radius: 2px;  
+}
+.section-4{
+    margin-top: 90px;
+    background-color: #ECEBFF99;
+}
+h6{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2F2E41;
+}
+.custom-li{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #717082;
+}
+.custom-media{
+    display: inline;
+    width: 35px;
+    height: 32px;
+    left: 780px;
+    top: 44px;
+    margin-left: 12px;
+    border-radius: 1px;
+}
+a:hover, a:link, a:visited{
+    text-decoration: none;
+    color: #2F2E41;
+}
+.section-5{
+    background-color: #ECEBFF99;
+}
+.copyright{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #9893A3;
+    flex: none;
+    order: 1;
+}
 
-@media (min-width: 544px) {  
-  h1 {font-size:1.5rem;} 
-}
-@media (min-width: 768px) {  
-  h1 {font-size:2rem;} 
-}
- 
-@media (min-width: 992px) { 
-  h1 {font-size:2.5rem;} 
-}
- 
-@media (min-width: 1200px) {  
-  h1 {font-size:5.375rem;}     
-}
- 
