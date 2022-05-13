@@ -331,6 +331,11 @@ h3{
     order: 0;
     flex-grow: 0;
 }
+.custom-col-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .button_letstalk{
     display: flex;
     justify-content: center;
